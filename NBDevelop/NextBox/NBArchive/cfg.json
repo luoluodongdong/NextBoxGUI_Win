@@ -1,0 +1,156 @@
+{
+  "Station_Settings": {
+    "SoftwareName": "NextBox SoftwareName Demo",
+    "SoftwareVersion": "v20200619.1026.10",
+    "Devices": [
+      {
+        "Name": "Fixture",
+        "Description": "Fixture serial port",
+        "ID": "1000",
+        "Load": "NO",
+        "Type": "SERIAL",
+        "Port": "COM387",
+        "BaudRate": "9600"
+      },
+      {
+        "Name": "Instrument",
+        "Description": "Board serial port1",
+        "ID": "2000",
+        "Load": "NO",
+        "Type": "INSTR",
+        "Port": "ASRL3::INSTR",
+        "BaudRate": "9600"
+      },
+      {
+        "Name": "Fixture2",
+        "Description": "Board socket port2",
+        "ID": "3000",
+        "Load": "NO",
+        "Type": "SOCKET",
+        "Port": "127.0.0.1:5555",
+        "BaudRate": "9600"
+      },
+      {
+        "Name": "Instrument2",
+        "Description": "Board serial port3",
+        "ID": "4000",
+        "Load": "NO",
+        "Type": "SERIAL",
+        "Port": "COM180",
+        "BaudRate": "9600"
+      },
+      {
+        "Name": "Fixture3",
+        "Description": "Board serial port4",
+        "ID": "5000",
+        "Load": "NO",
+        "Type": "SERIAL",
+        "Port": "COM42",
+        "BaudRate": "9600"
+      },
+      {
+        "Name": "Instrument3",
+        "Description": "Board serial port5",
+        "ID": "6000",
+        "Load": "NO",
+        "Type": "SERIAL",
+        "Port": "COM183",
+        "BaudRate": "9600"
+      }
+    ]
+  },
+  "Units_Settings": [
+    {
+      "UnitID": "Unit-1",
+      "Devices": [
+        {
+          "Name": "Dut",
+          "Description": "Dut serial port",
+          "ID": "1000",
+          "Load": "YES",
+          "Type": "SERIAL",
+          "Port": "COM4",
+          "BaudRate": "9600"
+        },
+        {
+          "Name": "Instrument",
+          "Description": "Instrument serial port",
+          "ID": "2000",
+          "Load": "NO",
+          "Type": "INSTR",
+          "Port": "ASRL4::INSTR",
+          "BaudRate": "9600"
+        }
+      ]
+    },
+    {
+      "UnitID": "Unit-2",
+      "Devices": [
+        {
+          "Name": "Dut",
+          "Description": "Dut serial port",
+          "ID": "1000",
+          "Load": "YES",
+          "Type": "SERIAL",
+          "Port": "COM5",
+          "BaudRate": "9600"
+        },
+        {
+          "Name": "Instrument",
+          "Description": "Instrument serial port",
+          "ID": "2000",
+          "Load": "NO",
+          "Type": "INSTR",
+          "Port": "ASRL5::INSTR",
+          "BaudRate": "9600"
+        }
+      ]
+    },
+    {
+      "UnitID": "Unit-3",
+      "Devices": [
+        {
+          "Name": "Dut",
+          "Description": "Dut serial port",
+          "ID": "1000",
+          "Load": "YES",
+          "Type": "SERIAL",
+          "Port": "COM6",
+          "BaudRate": "9600"
+        },
+        {
+          "Name": "Instrument",
+          "Description": "Instrument serial port",
+          "ID": "2000",
+          "Load": "NO",
+          "Type": "INSTR",
+          "Port": "ASRL6::INSTR",
+          "BaudRate": "9600"
+        }
+      ]
+    },
+    {
+      "UnitID": "Unit-4",
+      "Devices": [
+        {
+          "Name": "Dut",
+          "Description": "Dut serial port",
+          "ID": "1000",
+          "Load": "YES",
+          "Type": "SERIAL",
+          "Port": "COM7",
+          "BaudRate": "9600"
+        },
+        {
+          "Name": "Instrument",
+          "Description": "Instrument serial port",
+          "ID": "2000",
+          "Load": "NO",
+          "Type": "INSTR",
+          "Port": "ASRL7::INSTR",
+          "BaudRate": "9600"
+        }
+      ]
+    }
+  ]
+}

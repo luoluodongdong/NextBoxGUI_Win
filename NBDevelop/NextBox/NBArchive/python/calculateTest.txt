@@ -1,0 +1,1 @@
+D:\WorkSpace\NextBox\NBArchive\python\ExePyCmd\dist\ExePyCmd\ExePyCmd.exe -c "print(\"YES\") if \"th\" in \"thomas\" else print(\"NO\")"
